@@ -1,0 +1,28 @@
+{
+  "name": "@mcmuffindk/csgoluckyroll-bot",
+  "version": "0.6.2",
+  "description": "The main bot for CSGOLuckyRoll",
+  "main": "config.js",
+  "dependencies": {
+    "@opskins/api": "^1.4.2",
+    "colors": "^1.1.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "md5": "^2.2.1",
+    "mysql": "^2.15.0",
+    "n": "^2.1.8",
+    "node-my-log": "^1.1.1",
+    "steam-client": "^2.5.5",
+    "steam-price": "^1.0.0",
+    "steam-totp": "^2.0.1",
+    "steam-tradeoffer-manager": "^2.9.3",
+    "steam-user": "^3.24.0",
+    "steamcommunity": "^3.34.1"
+  },
+  "author": "McMuffinDK / CSGOLuckyRoll",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {}
+}
